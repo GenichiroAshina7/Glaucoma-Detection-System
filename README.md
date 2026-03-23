@@ -1,2 +1,39 @@
-# Glaucoma-Detection-System
+# Glaucoma Detection System
 An ML-powered solution that helps detect and predicts cases of glaucoma based on digital fundus images.
+
+### Prerequisites
+1. VSCode with Jupyter Notebook extension installed
+2. Terminal
+3. Windows 11, Linux or MacOS
+   
+### Installation
+1. Verify Python installation. Open terminal and type the following command.
+    ```bash
+    python --version
+    ```
+    If python is not installed, download it from https://www.python.org/
+
+2. Create project folder with the following structure:
+```
+Desktop/
+├── glaucoma project/
+│   ├── images/
+│   └── Labels.csv
+```
+
+3. Go to https://physionet.org/content/hillel-yaffe-glaucoma-dataset/1.0.0/ and download the zip file and extract the contents. Transfer the images and csv file to the previously created folder.
+
+4. Open terminal and create a virtual environment
+```bash
+python3 -m venv myenv
+```
+Note: myenv can be changed to any wanted name.
+
+5. Install required libraries. Full list of libraries located in requirements.txt.
+   ```bash
+   pip install pandas numpy matplotlib.......
+   ```
+
+6. Download the main.ipynb file to the project folder and open in VSCode. Select virtual environment as the kernel
+
+7. Select run all.
