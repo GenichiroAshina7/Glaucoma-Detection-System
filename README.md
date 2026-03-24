@@ -31,7 +31,7 @@ python3 -m venv myenv
 
 5. Install the required libraries. Download requirements.txt to folder and run the command in terminal.
    ```bash
-   pip install -r requirments.txt
+   pip install -r requirements.txt
    ```
    
 7. Download the main.ipynb file to the project folder and open in VSCode. Select virtual environment as the kernel
