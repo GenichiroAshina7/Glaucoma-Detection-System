@@ -27,13 +27,13 @@ Desktop/
 ```bash
 python3 -m venv myenv
 ```
-Note: myenv can be changed to any wanted name.
+   Note: myenv can be changed to any wanted name.
 
-5. Install required libraries. Full list of libraries located in requirements.txt.
+5. Install the required libraries. Download requirements.txt to folder and run the command in terminal.
    ```bash
-   pip install pandas numpy matplotlib.......
+   pip install -r requirments.txt
    ```
+   
+7. Download the main.ipynb file to the project folder and open in VSCode. Select virtual environment as the kernel
 
-6. Download the main.ipynb file to the project folder and open in VSCode. Select virtual environment as the kernel
-
-7. Select run all.
+8. Select run all.
