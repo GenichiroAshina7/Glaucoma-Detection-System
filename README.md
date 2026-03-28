@@ -42,4 +42,4 @@ python3 -m venv myenv
 
 8. Clear all previous outputs and run all.
 
-9. After the program has ended, run app.py. Click on localhost to open the Streamlit app.
+9. After the program has ended, run app.py. Click on localhost to open the Streamlit app. If error happens, match the name of the model with the code.
