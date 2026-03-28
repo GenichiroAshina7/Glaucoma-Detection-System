@@ -11,7 +11,7 @@ An ML-powered solution that helps detect and predicts cases of glaucoma based on
     ```bash
     python --version
     ```
-    If python is not installed, download it from https://www.python.org/
+    If python is not installed, download it from https://www.python.org/. Ensure python version is Python 3.13.
 
 2. Create project folder with the following structure:
 ```
@@ -29,11 +29,13 @@ python3 -m venv myenv
 ```
    Note: myenv can be changed to any wanted name.
 
-5. Install the required libraries. Download requirements.txt to folder and run the command in terminal.
+5. Install the required libraries. Download requirements.txt to the folder and run the command in terminal.
    ```bash
    pip install -r requirements.txt
    ```
    
-7. Download the main.ipynb file to the project folder and open in VSCode. Select virtual environment as the kernel
+7. Download the hygd_with_cdr_final.ipynb file to the project folder and open in VSCode. Select virtual environment as the kernel.
 
-8. Select run all.
+8. Clear outputs and run all.
+
+9. After the program has ended, run app.py. Click on localhost to open the Streamlit app.
