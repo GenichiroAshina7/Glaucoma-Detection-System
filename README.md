@@ -18,10 +18,13 @@ An ML-powered solution that helps detect and predicts cases of glaucoma based on
 Desktop/
 ├── glaucoma project/
 │   ├── images/
+      |-- img1.jpg
+      |-- img2.jpg
+      |-- .........
 │   └── Labels.csv
 ```
 
-3. Go to https://physionet.org/content/hillel-yaffe-glaucoma-dataset/1.0.0/ and download the zip file and extract the contents. Transfer the images and csv file to the previously created folder.
+3. Go to https://physionet.org/content/hillel-yaffe-glaucoma-dataset/1.0.0/ and download the zip file and extract the contents. Transfer the images into the "images" folder and csv file to the previously created folder.
 
 4. Open terminal and create a virtual environment
 ```bash
@@ -33,9 +36,10 @@ python3 -m venv myenv
    ```bash
    pip install -r requirements.txt
    ```
+   If error occurs, check your Python version whether or not it is compatible with the installed packages.
    
 7. Download the hygd_with_cdr_final.ipynb file to the project folder and open in VSCode. Select virtual environment as the kernel.
 
-8. Clear outputs and run all.
+8. Clear all previous outputs and run all.
 
 9. After the program has ended, run app.py. Click on localhost to open the Streamlit app.
